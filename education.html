@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="clase-ya-funciona navbar navbar-expand-md bg-light no-gutters">
+            <div class="clase-ya-funciona">
+                <div class="logo-container">
+                    <a href="index.html">
+                        <img src="img/jalogo.png" class="logo" alt="">
+                    </a>
+                </div>
+                <!-- Menú -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="menu-container">
+                        <ul class="navbar-nav ml-auto menu">
+                            <li class="nav-item menu-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="index.html" role="button" aria-expanded="false">Quiénes somos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about-us.html">Conócenos</a></li>
+                                    <li><a class="dropdown-item" href="#">Experiencias de aprendizaje</a></li>
+                                    <li><a class="dropdown-item" href="#">Nominación a premio Nobel de la paz</a></li>
+                                    <li><a class="dropdown-item" href="#">TopTen Global SGO's</a></li>
+                                    <li><a class="dropdown-item" href="#">ODS y Junior Achievement</a></li>
+                                    <li><a class="dropdown-item" href="#">Reporte de impacto</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item menu-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">Qué hacemos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Educación Básica</a></li>
+                                    <li><a class="dropdown-item" href="#">Educación media superior y superior</a></li>
+                                    <li><a class="dropdown-item" href="#">Emprendedores y empresarios</a></li>
+                                    <li><a class="dropdown-item" href="#">Cuentas contigo 2.0</a></li>
+                                    <li><a class="dropdown-item" href="#">Mujeres emprendedoras</a></li>
+                                    <li><a class="dropdown-item" href="#">Mujer Digital</a></li>
+                                    <li><a class="dropdown-item" href="#">FIE México</a></li>
+                                    <li><a class="dropdown-item" href="#">FORMA</a></li>
+                                    <li><a class="dropdown-item" href="#">Salón del empresario</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="nav-item menu-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">Comunidad JA</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Centros</a></li>
+                                    <li><a class="dropdown-item" href="#">JA Alumni</a></li>
+                                    <li><a class="dropdown-item" href="#">Consejos JA México</a></li>
+                                    <li><a class="dropdown-item" href="#">Aliados</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="nav-item menu-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">Aprende e infórmate</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">ChatBot Conexion</a></li>
+                                    <li><a class="dropdown-item" href="#">JA Centro de Emprendedores</a></li>
+                                    <li><a class="dropdown-item" href="#">Newsroom</a></li>
+                                    <li><a class="dropdown-item" href="#">Videoteca</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li class="nav-item menu-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">Involúcrate</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Registro a programas</a></li>
+                                    <li><a class="dropdown-item" href="#">Voluntario</a></li>
+                                    <li><a class="dropdown-item" href="#">Bolsa de Trabajo</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="comunity-section">
+            <h2 class="">PROGRAMAS DE EDUCACIÓN BÁSICA</h2>
+        </section>
+
+        <section class="education-section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="education">
+                        <img class="education-image" src="img/desafio.jpg" alt="">
+                        <h3 class="education-title">Impulsa nuestras familias</h3>
+                        <div id="content1" style="display: none;">
+                            <p class="education-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit adipisci quae quaerat delectus dignissimos dolor et veritatis. Soluta eaque repellendus dolorum sapiente fuga in ipsum recusandae amet dolores accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, reiciendis aspernatur asperiores est eveniet veniam autem recusandae consequuntur libero suscipit dolore officia soluta nobis sit, distinctio sapiente quia enim? Quam.
+                            </p>
+                        </div>
+                        <button onclick='muestra_oculta("content1")' class="btn-education btn-primary" form="content1">+</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="education">
+                        <img class="education-image" src="img/lasolucion.jpg" alt="">
+                        <h3 class="education-title">Impulsa nuestra comunidad</h3>
+                        <div id="contenido2" style="display: none;">
+                            <p class="education-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit adipisci quae quaerat delectus dignissimos dolor et veritatis. Soluta eaque repellendus dolorum sapiente fuga in ipsum recusandae amet dolores accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, reiciendis aspernatur asperiores est eveniet veniam autem recusandae consequuntur libero suscipit dolore officia soluta nobis sit, distinctio sapiente quia enim? Quam.
+                            </p>
+                        </div>
+                        <button onclick='muestra_oculta("contenido2")' class="btn-education btn-primary" form="contenido2">+</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="education">
+                        <img class="education-image" src="img/impacto.jpg" alt="">
+                        <h3 class="education-title">Impulsa nuestra ciudad</h3>                        
+                        <div id="contenido3" style="display: none;">
+                            <p class="education-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti impedit adipisci quae quaerat delectus dignissimos dolor et veritatis. Soluta eaque repellendus dolorum sapiente fuga in ipsum recusandae amet dolores accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, reiciendis aspernatur asperiores est eveniet veniam autem recusandae consequuntur libero suscipit dolore officia soluta nobis sit, distinctio sapiente quia enim? Quam.
+                            </p>
+                        </div>
+                        <button onclick='muestra_oculta("contenido3")' class="btn-education btn-primary" form="contenido3">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+
+    </main>
+
+    <footer class="footer">
+        <img class="footer-img" src="img/logo.jpg" alt="">
+        <h3 class="footer-title">Suscríbete para recibir Actualizaciones</h3>
+        <div class="footer-form">
+            <form class="form-container">
+                <div class="input-container">
+                    <input type="text" class="input-field" id="nombre" placeholder="Nombre y Apellido">
+                </div>
+                <div class="input-container">
+                    <input type="email" class="input-field" id="email" placeholder="Correo Electrónico">
+                </div>
+                <div class="input-container">
+                    <button type="submit" class="btn btn-primary submit-btn">Suscribirse</button>
+                </div>
+            </form>
+        </div>
+        <p class="footer-info">JA Centro de Emprendedores Paul Reichmann</p>
+        <p class="footer-info">Paseo de la Reforma No. 505, Torre Mayor - Piso 53, Col. Cuauhtémoc CP 06500, Ciudad de México</p>
+        <p class="footer-info">Teléfono: <a href="tel:+5552119444">555 211 9444</a></p>
+        <p class="footer-link"><a href="#">Aviso de Privacidad</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
