@@ -220,7 +220,11 @@ main {
     height: 600px;
     margin-bottom: 10px;
 }
-/* **********************************About-us */
+/* ************************************ About-us *****************************************************/
+.val-section{
+    width: 90%;
+    margin: 30px auto 30px auto;
+}
 .equal-height {
     height: 100%;
     display: flex;
@@ -229,9 +233,27 @@ main {
 
 .equal-height .card-img-top {
     flex-shrink: 0;
-    height: 50%;
+    height: 60%;
     object-fit: cover;
 }
+.card-body{
+    margin: 0 auto 10px auto;
+    padding: 10px;
+}
+
+.card-title{
+    margin: 30px auto;
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+    margin: 30px auto 10px auto;
+}
+
+/* .carusel-about-us{
+    border-bottom: solid 5px var(--secondary-blue);
+} */
 
 /* *******************************************Estilos de Education**************************** */
 
@@ -242,7 +264,7 @@ main {
 
 .education{
     width: 350px;
-    margin: 30px auto;
+    margin: 0 auto 30px auto;
 }
 
 .education-image{
@@ -287,6 +309,7 @@ main {
     background-color: #c6eef0;
     padding: 20px;
     text-align: center;
+    border-top: solid 5px var(--secondary-blue);
 }
 
 .footer-img{
@@ -390,6 +413,18 @@ main {
     .comunity-section p{
         text-align: justify;
     }
+    .equal-height .card-img-top {
+        flex-shrink: 0;
+        height: 40%;
+        object-fit: cover;
+    }
+}
+@media(max-width:767px){
+    .equal-height .card-img-top {
+        flex-shrink: 0;
+        height: 70%;
+        object-fit: cover;
+    }
 }
 
 @media (max-width:720px){
@@ -411,6 +446,18 @@ main {
     }
     .news-section h1{
         margin-bottom: 0;
+    }
+    .equal-height .card-img-top {
+        flex-shrink: 0;
+        height: 70%;
+        object-fit: cover;
+    }
+}
+@media(max-width:590px){
+    .equal-height .card-img-top {
+        flex-shrink: 0;
+        height: 65%;
+        object-fit: cover;
     }
 }
 
@@ -453,5 +500,10 @@ main {
     .submit-btn {
         width: 100%; /* Ajustar el ancho al 100% para ocupar toda la columna */
         margin-top: 10px; /* Agregar un margen superior para separar el botón */
+    }
+    .equal-height .card-img-top {
+        flex-shrink: 0;
+        height: 45%;
+        object-fit: cover;
     }
 }
